@@ -5,24 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-</head>
-<body>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-
-<link href="${pageContext.request.contextPath}/assets/css/comm.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 	<!-- header&nav -->
 	<jsp:include page="/WEB-INF/views/include/header.jsp"></jsp:include>
 	
-	<div class="container">	
+	<div class="contents">	
 	
 		<div class="subtitle">
 			<h1>우리동네 소통창구</h1>
@@ -44,19 +34,5 @@
 		<div class="content">
 			
 		</div>
-		
-		
-		
-		
-			
-			
-	</div>
-	
-
-	
-	
-	
-</body>
-</html>
 </body>
 </html>

@@ -57,7 +57,7 @@
 					</div>
 				</li>
 				
-				
+				<li><a class="mMap" href="${pageContext.request.contextPath}/m/map"> 산책하기 </a></li>
 				
 				
 			</ul>

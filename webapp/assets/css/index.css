@@ -14,3 +14,11 @@
 	font-weight: bold;
 	line-height: 41px;
 }
+
+.subtitle{
+	display: flex;
+}
+
+.search {
+	display: flex;
+}

@@ -31,7 +31,7 @@
 	        </div>
 	    </div>
 	    
-	    <li><a class="dropdown-item" href="${pageContext.request.contextPath}/comm/list"> 산책소식 </a></li>
+	    <li><a class="wComm" href="${pageContext.request.contextPath}/comm/list"> 산책소식 </a></li>
 	    
 	    <!-- 상단 우측부터는 모임일정 유무에 따른 아이콘 표시 (일단은 아이콘띄우고 나중에 if문처리) -->	
 	    <div class="right-rectangle"></div>				
