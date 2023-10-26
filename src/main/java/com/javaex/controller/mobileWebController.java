@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.javaex.vo.linePathVo;
 
 @Controller
-public class HelloMap {
+public class mobileWebController {
 	
 	// 헬로우 테스트
 	@RequestMapping( "/hello")
 	public String hello(){
 		System.out.println("/hello");
-		return "/index";
+		return "community/index";
 	}
 	
 	// 로그인폼
@@ -40,7 +40,7 @@ public class HelloMap {
 	@RequestMapping( "/map")
 	public String map(){
 		System.out.println("/산책시작 페이지");
-		return "/map";
+		return "mobileWeb/map";
 	}
 	
 	// 산책기록 보내기

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.container {
+	width: 1250px;
+	margin: auto;
+	background: grey;
+	min-height: 100vh;
+	position: relative;
+	padding: 0;
+}
+
+.container h1 {
+	font-size: 34px;
+	font-weight: bold;
+}

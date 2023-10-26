@@ -4,13 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Insert title here</title>
 </head>
 <body>
 
-	<h1>hello spring    헬로 스프링</h1>
+	<!-- header&nav -->
+	<jsp:include page="/WEB-INF/views/include/header.jsp"></jsp:include>
 	
-
+	<div class="container">	
+		<h1>우리동네 소통창구</h1>
+	</div>
+	
 </body>
 </html>

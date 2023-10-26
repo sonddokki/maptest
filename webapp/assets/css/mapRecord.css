@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+	#map {
+		width: 100%;
+		height: 820px;
+		position: relative
+	}
+	
+
+	/*산책시작 버튼*/
+	button.button_1 {
+		border: 0;
+		outline: none;
+		width: 200px;  /* 가로 크기 조정 */
+		height: 80px;  /* 세로 크기 조정 */
+		border-radius: 50px; /* 가로 반지름과 세로 반지름 설정 */
+		font-size: 30px;
+		/*margin: 10px;*/
+		box-shadow: 3px 3px 3px rgb(109, 109, 109), -3px -3px 3px rgb(237, 237, 237);
+		transition: 0.3s;
+		transform: none; /* 기울기 제거 */
+		color: white; /* 글씨 색상을 하얀색으로 설정 */		
+	}
+	
+	/*시작전*/
+	#startButton {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: orange	
+	}
+	
+	/*진행중*/
+	#stopButton {
+		display: none;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform:
+		translateX(-50%);
+		background-color: royalblue;
+	}
+	
+	
+	
+	/*버튼 그림자*/
+	button.button_1:hover {
+		box-shadow: -3px -3px 3px rgb(172, 172, 172), 3px 3px 3px rgb(237, 237, 237);
+		transition: 0.3s;
+	}
+	
+	/*버튼 그림자*/
+	.profile-circles {
+		display: flex;
+		align-items: center; /* 수직 가운데 정렬 */
+	}
+	
+	/*상단 박스*/
+	.profile-circle {
+	    width: 44px; /* 프로필 동그라미의 너비 설정 */
+	    height: 44px; /* 프로필 동그라미의 높이 설정 */
+	    border-radius: 50%; /* 원 모양으로 만들기 */
+	    margin-right: 3px; /* 동그라미 사이의 간격 설정 */
+	    overflow: hidden; /* 이미지를 동그라미 안에 잘라내기 */
+	    display: inline-block; /* 가로로 정렬하기 */
+	}
+	
+	/*강아지프로필*/
+	.profile-circle img {
+	    width: 100%; /* 이미지를 동그라미의 크기에 맞춤 */
+	    height: 100%; /* 이미지를 동그라미의 크기에 맞춤 */
+	    object-fit: cover; /* 이미지를 비율 유지하며 동그라미 안에 맞춤 */
+	    vertical-align: middle; /* 수직 가운데 정렬 */
+	}
+	
+	/*모임일정아이콘*/
+	.right-rectangle {
+	    width: 44px; /* 사각형의 너비 설정 */
+	    height: 44px; /* 사각형의 높이 설정 */
+	    background-color: #ff5733; /* 배경 색상 설정 */
+	    /*margin-top: 5px;  사각형을 위로 올리는 마진 설정 */
+	    vertical-align: middle; /* 수직 가운데 정렬 */
+	}
