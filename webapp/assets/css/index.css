@@ -1,24 +1,75 @@
 @charset "UTF-8";
 
-.contents {
-	width:1250px;
-	margin: auto;
-	background: grey;
-	min-height: 100vh;
-	position: relative;
-	padding: 0;
-}
+/****************************************************************/
+/* 초기화 관련 ***************************************************/
+/****************************************************************/
 
-.contents h1 {
-	font-size: 34px;
-	font-weight: bold;
-	line-height: 41px;
-}
+/* 여백 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr,
+textarea, button, form {margin: 0; padding: 0;}
 
-.subtitle{
-	display: flex;
-}
+	.contents {
+		width:1250px;
+		margin: auto;
+		background: #E6E6E6;
+		min-height: 100vh;
+		position: relative;
+		padding: 0;
+	}
 
-.search {
-	display: flex;
-}
+	.contents h1 {		
+		font-size: 34px;
+		font-weight: bold;
+		line-height: 41px;
+	}
+
+	.subtitle{
+		display: flex;
+		justify-content: space-between; 
+		background: skyblue;
+	}
+
+	.search {
+		display: flex;
+		justify-content: space-between; 
+		background: plum;
+	}
+
+	.address{
+		display: flex;	
+	}
+
+
+/* 왼쪽메뉴(aside) */
+	#aside {		
+		width: 180px;
+		margin: 20px 0px 0px 0px;
+		background-color: lightpink;
+		position: fixed;
+	    overflow-y: auto; /* 사이드바 내 스크롤을 가능하게 함 */
+	}
+
+	#aside h2 {
+		width: 160px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 20px;
+		font-weight: bold;
+		background-color: #DDDDDD;
+	}
+	
+	#aside ul {
+	width: 160px;
+	}	
+	
+	#aside ul>li {
+		margin: 5px 0px 0px 0px;
+		padding: 8px 0px 8px 10px;
+		font-size: 18px;
+	}
+	
+	#guestbook {
+    margin-left: 200px; /* 레이아웃에 따라 이 값을 조정하세요. */
+    padding: 20px; /* 사이드바와 내용을 구분하기 위한 간격 추가 */
+	}

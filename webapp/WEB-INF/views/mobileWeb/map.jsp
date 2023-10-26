@@ -16,7 +16,7 @@
 </head>
 <body>
 
-	<div id="headerBox" style="width: 100%; height: 50px; display: flex; align-items: center; justify-content: space-between;">
+	<div id="headerBox">
 	
 		<!-- 상단 좌측부터는 반복문으로 강아지프로필 이미지 띄우는곳 (5개 이상이면 슬릿) -->
 		<div class="profile-circles">
@@ -249,7 +249,7 @@
 
         	  $.ajax({
         	    type: 'POST',
-        	    url: "${pageContext.request.contextPath}/linePathInsert",
+        	    url: "${pageContext.request.contextPath}/m/linePathInsert",
     			contentType : "application/json",
         	    // data: { linePath: JSON.stringify(linePath) },
         	    data: jsonData, 

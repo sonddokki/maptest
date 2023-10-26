@@ -57,6 +57,15 @@
 	}
 	
 	/*상단 박스*/
+	#headerBox {
+		width: 100%;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between; /*  */
+	}
+	
+	
 	.profile-circle {
 	    width: 44px; /* 프로필 동그라미의 너비 설정 */
 	    height: 44px; /* 프로필 동그라미의 높이 설정 */
