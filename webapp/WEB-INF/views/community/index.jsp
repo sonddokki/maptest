@@ -51,7 +51,7 @@
 				</ul>
 			</div>
 			
-			<div id="guestbook">
+			<div id="contentList">
 				<table class="guestRead">
 						<tr>
 							<td>루비엄마</td>
@@ -59,6 +59,9 @@
 							<td>제목입니다</td>
 							<td>내용을 씁니다.</td>
 							<td colspan=4 class="text-left">강아지사진</td>
+							<li class="logo">
+								<a><img src="${pageContext.request.contextPath}/assets/images/123.jpg"></a>
+							</li>
 						</tr>
 				</table>
 			

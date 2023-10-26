@@ -84,10 +84,10 @@
 	}
 	
 	/*모임일정아이콘*/
-	.right-rectangle {
-	    width: 44px; /* 사각형의 너비 설정 */
-	    height: 44px; /* 사각형의 높이 설정 */
-	    background-color: #ff5733; /* 배경 색상 설정 */
-	    /*margin-top: 5px;  사각형을 위로 올리는 마진 설정 */
+	#icon {
+	    /*margin-top: 5px;  /*사각형을 위로 올리는 마진 설정 */
 	    vertical-align: middle; /* 수직 가운데 정렬 */
+	    color: #ba681c;
 	}
+	
+	

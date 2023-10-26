@@ -13,6 +13,8 @@
 	<script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
 	<!-- css -->
 	<link href="${pageContext.request.contextPath}/assets/css/mapRecord.css" rel="stylesheet" type="text/css">	
+	<!-- 폰트어썸 -->
+	<script src="https://kit.fontawesome.com/109d7bd609.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -34,7 +36,11 @@
 	    <li><a class="wComm" href="${pageContext.request.contextPath}/comm/list"> 산책소식 </a></li>
 	    
 	    <!-- 상단 우측부터는 모임일정 유무에 따른 아이콘 표시 (일단은 아이콘띄우고 나중에 if문처리) -->	
-	    <div class="right-rectangle"></div>				
+	    <div class="clubsIcon">
+	   		<!-- <i id="icon" class="fa-solid fa-dog fa-2x"></i> -->
+	   		<i id="icon" class="fa-regular fa-calendar-check fa-2x"></i>
+	    </div>
+	    
 	
 	</div>
 

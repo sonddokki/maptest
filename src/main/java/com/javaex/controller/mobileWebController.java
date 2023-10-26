@@ -34,7 +34,7 @@ public class mobileWebController {
 	@RequestMapping( "/map")
 	public String map(){
 		System.out.println("/산책시작 페이지");
-		return "mobileWeb/map";
+		return "mobileWeb/walkStart";
 	}
 	
 	// 산책기록 보내기
@@ -45,15 +45,17 @@ public class mobileWebController {
 		System.out.println(line);
 		
 		// 나중에 수정
-		return "redirect:map";
+		return "redirect:walkStart";
 		// return "/walkInsertForm";
 	}
 	
 	// 기록내용 상세폼
-	@RequestMapping( "/walkInsertForm")
+	//@RequestMapping( "/walkInsertForm")
+	@RequestMapping( "/wif")
 	public String walkInsertForm(){
 		System.out.println("/walkInsertForm");
-		return "mobileWeb/walkInsert";
+		//return "mobileWeb/walkInsert";
+		return "mobileWeb/walkEnd";
 	}
 		
 	// 기록하기
