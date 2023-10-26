@@ -21,15 +21,17 @@
 		<!-- 상단 좌측부터는 반복문으로 강아지프로필 이미지 띄우는곳 (5개 이상이면 슬릿) -->
 		<div class="profile-circles">
 	        <div class="profile-circle">
-	            <img src="./assets/images/123.jpg" alt="Profile Image 1">
+	            <img src="${pageContext.request.contextPath}/assets/images/123.jpg" alt="Profile Image 1">
 	        </div>
 	        <div class="profile-circle">
-	            <img src="./assets/images/234.jpg" alt="Profile Image 2">
+	            <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 2">
 	        </div>
 	        <div class="profile-circle">
-	            <img src="./assets/images/345.jpg" alt="Profile Image 3">
+	            <img src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 3">
 	        </div>
 	    </div>
+	    
+	    <li><a class="dropdown-item" href="${pageContext.request.contextPath}/comm/list"> 산책소식 </a></li>
 	    
 	    <!-- 상단 우측부터는 모임일정 유무에 따른 아이콘 표시 (일단은 아이콘띄우고 나중에 if문처리) -->	
 	    <div class="right-rectangle"></div>				

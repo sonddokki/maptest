@@ -13,27 +13,21 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.javaex.vo.linePathVo;
 
 @Controller
+@RequestMapping( "/m")
 public class mobileWebController {
-	
-	// 헬로우 테스트
-	@RequestMapping( "/hello")
-	public String hello(){
-		System.out.println("/hello");
-		return "community/index";
-	}
-	
+		
 	// 로그인폼
 	@RequestMapping( "/loginForm")
 	public String loginForm(){
 		System.out.println("/loginForm");
-		return "/login";
+		return "mobileWeb/login";
 	}
 	
 	// 로그인실행
 	@RequestMapping( "/login")
 	public String login(){
 		System.out.println("/login");
-		return "/map";
+		return "mobileWeb/map";
 	}
 	
 	// 모바일메인화면 맵실행
@@ -59,7 +53,7 @@ public class mobileWebController {
 	@RequestMapping( "/walkInsertForm")
 	public String walkInsertForm(){
 		System.out.println("/walkInsertForm");
-		return "/walkInsert";
+		return "mobileWeb/walkInsert";
 	}
 		
 	// 기록하기
