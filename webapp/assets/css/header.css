@@ -7,7 +7,7 @@
 }
 
 .global-header nav {
-	width: 1250px;
+	width:1250px;
 	height: 55px;
 	margin: auto;
 }
@@ -37,6 +37,10 @@
 .global-header .right {
 	line-height: 55px;
 	float: right;
+}
+
+.global-header .right li:last-child {
+	margin-right: 0;
 }
 
 .global-header nav ul li .drop-toggle::after{

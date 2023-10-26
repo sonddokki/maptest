@@ -12,7 +12,7 @@ public class communityController {
 	// 우리동네 소통창구
 	@RequestMapping( "/list")
 	public String hello(){
-		System.out.println("/hello");
+		System.out.println("/commList");
 		return "community/index";
 	}
 		

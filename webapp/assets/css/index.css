@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
-.container {
-	width: 1250px;
+.contents {
+	width:1250px;
 	margin: auto;
-	background: #D8D8D8;
+	background: grey;
 	min-height: 100vh;
 	position: relative;
 	padding: 0;
 }
 
-.container h1 {
+.contents h1 {
 	font-size: 34px;
 	font-weight: bold;
+	line-height: 41px;
 }

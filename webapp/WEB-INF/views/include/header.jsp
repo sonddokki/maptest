@@ -12,7 +12,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
-
 	<header class="global-header">
 		<nav>
 			<ul>
@@ -58,7 +57,7 @@
 					</div>
 				</li>
 				
-				<li><a class="dropdown-item" href="${pageContext.request.contextPath}/m/map">산책하기</a></li>
+				
 				
 				
 			</ul>
