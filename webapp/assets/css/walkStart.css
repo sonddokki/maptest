@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+	/* 표시되는 맵 */
+	#map {
+		width: 100%;
+		height: 820px;
+		position: relative;
+	}
+	
+
+	/*산책시작 버튼*/
+	button.button_1 {
+		border: 0;
+		outline: none;
+		width: 200px;  /* 가로 크기 조정 */
+		height: 80px;  /* 세로 크기 조정 */
+		border-radius: 50px; /* 가로 반지름과 세로 반지름 설정 */
+		font-size: 30px;
+		/*margin: 10px;*/
+		box-shadow: 3px 3px 3px rgb(109, 109, 109), -3px -3px 3px rgb(237, 237, 237);
+		transition: 0.3s;
+		transform: none; /* 기울기 제거 */
+		color: white; /* 글씨 색상을 하얀색으로 설정 */		
+	}
+	
+	/*시작전*/
+	#startButton {
+		position: absolute;
+		bottom: -50px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: orange	
+	}
+	
+	/*진행중*/
+	#walkStart {
+		display: none;
+		position: absolute;
+		width: 100%;  /* 가로 크기 조정 */
+		height: 200px;  /* 세로 크기 조정 */
+		bottom: -90px;
+		left: 50%;
+		transform:
+		translateX(-50%);
+		background-color: rgb(255, 255, 255);
+	}
+	
+	/*진행중 버튼*/
+	#stopButton {
+		position: absolute;
+		width: 80px;  /* 가로 크기 조정 */
+		height: 80px;  /* 세로 크기 조정 */
+		border-radius: 50px; /* 가로 반지름과 세로 반지름 설정 */
+		bottom: 15px;
+		left: 50%;
+		transform:
+		translateX(-50%);
+		color: orange; /* 글씨 색상을 하얀색으로 설정 */		
+		background-color: white;
+		border:5px solid orange;
+	}
+	
+	
+	
+	/*버튼 그림자*/
+	button.button_1:hover {
+		box-shadow: -3px -3px 3px rgb(172, 172, 172), 3px 3px 3px rgb(237, 237, 237);
+		transition: 0.3s;
+	}	
+	
+	/*상단 박스*/
+	#headerBox {
+		width: 100%;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between; /*  */
+	}	
+	
+	/* 프로필 컨테이너 스타일링 */
+	.profile-container {
+	    overflow: hidden;
+	    position: relative;
+	    display: flex;
+	}
+	
+	/* 프로필 이미지 스타일링 */
+	.profile-circles {
+	    /*display: flex;
+	    transition: transform 0.5s ease;
+	    /* 다른 스타일링 */
+	    width: 280px;  /*원하는 너비로 설정 */
+	    
+	    overflow: hidden;
+	    position: relative;
+	    display: flex;
+	    transition: transform 0.5s ease;
+	    align-items: center;
+	}
+	
+	/*프로필 묶음
+	.profile-circles {
+		overflow: hidden;
+	    width: 300px; /* 필요에 따라 가로 크기 조정
+	    position: relative;
+	    display: flex;
+	    transition: transform 0.5s ease;
+	    align-items: center; /* 수직 가운데 정렬
+	}*/
+	
+	.profile-circle {
+	    width: 44px; /* 프로필 동그라미의 너비 설정 */
+	    height: 44px; /* 프로필 동그라미의 높이 설정 */
+	    border-radius: 50%; /* 원 모양으로 만들기 */
+	    margin-left: 5px; /* 동그라미 사이의 간격 설정 */	    
+	    margin: 5px,5px; /* 동그라미 상하 간격 설정 */
+	    overflow: hidden; /* 이미지를 동그라미 안에 잘라내기 */
+	    display: inline-block; /* 가로로 정렬하기 */
+	    border:3px solid rgb(222, 33, 37);
+	}
+	
+	/*강아지프로필*/
+	.profile-circle img {
+	    width: 100%; /* 이미지를 동그라미의 크기에 맞춤 */
+	    height: 100%; /* 이미지를 동그라미의 크기에 맞춤 */
+	    object-fit: cover; /* 이미지를 비율 유지하며 동그라미 안에 맞춤 */
+	    vertical-align: middle; /* 수직 가운데 정렬 */
+	}
+	
+	.clubsIcon {
+        position: relative;
+    }
+
+    .drop-toggle {
+        display: flex;
+        align-items: center;
+        cursor: pointer;	
+	    color: orange;
+    }
+
+    .dropdown-menu {
+        display: none;
+        width: 40px;
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        border: 1px solid #ccc;
+    }
+
+    .clubsIcon.active .dropdown-menu {
+        display: block;
+    }
+
+    #icon {
+        /*margin-top: 5px;  사각형을 위로 올리는 마진 설정*/ 
+        vertical-align: middle; /* 수직 가운데 정렬 */
+    }
+	
+	/*.drop-toggle {
+		margin: 10px;		
+	    color: orange;
+	}
+	
+	모임일정아이콘
+	#icon {
+	    margin-top: 5px;  사각형을 위로 올리는 마진 설정 
+	    vertical-align: middle;  수직 가운데 정렬 
+	}
+	
+	.clubsIcon {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        display: none;
+        width: 40px;
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+
+    .clubsIcon.active .dropdown-menu {
+        display: block;
+    }*/
+	
+	/**/
+	#walkStart li {
+	    list-style-type: none; /* 점 제거 */
+	    display: inline-block; /* 가로 정렬 */
+	    margin-right: 10px; /* 필요한 경우 우측 간격 조절 */
+	    font-size: 30px;
+	}
+	
