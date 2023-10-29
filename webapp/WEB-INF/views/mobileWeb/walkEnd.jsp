@@ -73,7 +73,9 @@
 			<!-- 체크박스라인 -->
 			<div class="checkBox">
 			
-				<i class="fa-solid fa-unlock-keyhole"></i> &nbsp; 비공개로 게시 
+				<i class="fa-solid fa-unlock-keyhole"></i>
+				
+				<div> &nbsp; 비공개로 게시</div>
 				
 				<label class="switch-button">
 					<input type="checkbox"/>
@@ -83,7 +85,9 @@
 			
 			<div class="checkBox">
 			
-				<i class="fa-brands fa-instagram"></i> &nbsp; Instagram에 게시
+				<i class="fa-brands fa-instagram"></i>
+				
+				<div> &nbsp; Instagram에 게시</div>
 				
 				<label class="switch-button">
 					<input type="checkbox"/>

@@ -160,9 +160,11 @@
 	    position: relative;
 	    display: flex;
 	    /*justify-content: center;  수평 가운데 정렬 */
-	    align-items: center; /* 수직 가운데 정렬 */
-	    justify-content: space-between; /* 요소 사이에 공간 배분 */
+	    align-items: center;  /*수직 가운데 정렬 */
+	    /*justify-content: space-between;  요소 사이에 공간 배분 */
 	}
+	
+	
 	
 	.checkBox i {
     display: inline-block; /* 인라인 블록 요소로 설정하여 텍스트와 아이콘이 가로로 정렬 */
@@ -171,11 +173,14 @@
 	
 	/* 체크박스 */
 	.switch-button {
-        position: relative;
         width: 55px;
         height: 30px;
 	    display: flex;
 	    align-items: center;
+	    position: absolute;
+	    right: 0;
+	    top: 50%; /* 수직 가운데 정렬을 위해 추가 */
+	    transform: translateY(-50%); /* 수직 가운데 정렬을 위해 추가 */
     }
 
     .switch-button input {

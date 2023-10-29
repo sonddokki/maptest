@@ -22,6 +22,7 @@
 	<!-- css -->
 	<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">	
 	<link href="${pageContext.request.contextPath}/assets/css/walkStart.css" rel="stylesheet" type="text/css">	
+	
 	<!-- 폰트어썸 -->
 	<script src="https://kit.fontawesome.com/109d7bd609.js" crossorigin="anonymous"></script>
 </head>
@@ -87,8 +88,11 @@
 	
 	<!-- 버튼 눌렀을때 스타일 변화 -->
 	<div id="walkStart">
-		<li><a class="" > 32m </a></li>
-		<li><a class="" > 0:21분 </a></li>
+	
+		<div class="distance"> <a> 32m </a> </div>
+		<div class="time"> <a> 0:21분 </a> </div>
+		
+		
 		
 		<button class="button_1" id="stopButton">■</button>
 	</div>
@@ -216,7 +220,10 @@
         const mapIcon = {
           content: '<div style="background-color: blue; width: 10px; height: 10px; border-radius: 50%;"></div>', // 빨간색 원 모양 아이콘
           size: new naver.maps.Size(10, 10), // 아이콘 크기 설정
-          anchor: new naver.maps.Point(5, 5) // 아이콘 기준점 설정
+          anchor: new naver.maps.Point(5, 5), // 아이콘 기준점 설정
+		  mapDataControl : false,
+		  caleControl: false,
+	      logoControl: false
         };
 
         // 이동중 현재 위치정보
