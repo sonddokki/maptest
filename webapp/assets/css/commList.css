@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-
+	#title {
+		text-decoration:none;
+		cursor: pointer;
+		color: black;
+	}
 
 	/* 왼쪽메뉴(aside) */
 	#aside {		

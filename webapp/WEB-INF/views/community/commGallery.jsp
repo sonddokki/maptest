@@ -30,7 +30,7 @@
 		<div class="search">		
 			<div class="address">
 				<span class="myColor">천호동</span>&nbsp; <i class="fa-regular fa-square-caret-down"></i>
-			</div>			
+			</div>	
 			
 			<div>
 				<button class="img-button" type="submit" name="click" value="">
@@ -263,78 +263,7 @@
 		
 				
 		<!-- -------------------------------------------------------------- -->
-		
-		<div class="content">
-		
-			<div class="galleryBox">
-				<div class="text-center">
-					<img src="${pageContext.request.contextPath}/assets/images/345.jpg" class="img-thumbnail" alt="...">
-				</div>
-				<div class="galleryContent">
-					<li class="icon"><i class="fa-solid fa-heart"></i> 12</li>	
-					<li> 프로필 사진을 ...</li>				
-					<li> 루비엄마 </li>
-					<li> 방금전 댓글10 조회2 </li>
-				</div>
-			</div>	
-			
-			<!-- ---------------------- -->
-			
-			<div class="galleryBox">
-				<div class="text-center">
-					<img src="${pageContext.request.contextPath}/assets/images/345.jpg" class="img-thumbnail" alt="...">
-				</div>
-				<div class="galleryContent">
-					<li class="icon"><i class="fa-solid fa-heart"></i> 12</li>	
-					<li> 프로필 사진을 ...</li>				
-					<li> 루비엄마 </li>
-					<li> 방금전 댓글10 조회2 </li>
-				</div>
-			</div>	
-			
-			<!-- ---------------------- -->
-			
-			<div class="galleryBox">
-				<div class="text-center">
-					<img src="${pageContext.request.contextPath}/assets/images/345.jpg" class="img-thumbnail" alt="...">
-				</div>
-				<div class="galleryContent">
-					<li class="icon"><i class="fa-solid fa-heart"></i> 12</li>	
-					<li> 프로필 사진을 ...</li>				
-					<li> 루비엄마 </li>
-					<li> 방금전 댓글10 조회2 </li>
-				</div>
-			</div>	
-			
-			<!-- ---------------------- -->
-			
-			<div class="galleryBox">
-				<div class="text-center">
-					<img src="${pageContext.request.contextPath}/assets/images/345.jpg" class="img-thumbnail" alt="...">
-				</div>
-				<div class="galleryContent">
-					<li class="icon"><i class="fa-solid fa-heart"></i> 12</li>	
-					<li> 프로필 사진을 ...</li>				
-					<li> 루비엄마 </li>
-					<li> 방금전 댓글10 조회2 </li>
-				</div>
-			</div>	
-			
-			<!-- ---------------------- -->
-			
-			<div class="galleryBox">
-				<div class="text-center">
-					<img src="${pageContext.request.contextPath}/assets/images/345.jpg" class="img-thumbnail" alt="...">
-				</div>
-				<div class="galleryContent">
-					<li class="icon"><i class="fa-solid fa-heart"></i> 12</li>	
-					<li> 프로필 사진을 ...</li>				
-					<li> 루비엄마 </li>
-					<li> 방금전 댓글10 조회2 </li>
-				</div>
-			</div>	
-			
-		</div>
+	
 		
 		<div id="list">
 			<div id="paging">

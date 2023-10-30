@@ -67,7 +67,9 @@
 							    </div>
 				            </div>
 			            
-				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;
+				            	<a id="title" href="${pageContext.request.contextPath}/comm/read">제목입니다</a>				            
+				            </div>
 				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
 				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
 				            보통 강아지들의 산책시기는 접종이 끝난 4개월이 적당하다고 하시는데요. 하지만 이시기에 산책을 하게 되면 사회성을 키우기에는 시기가 늦어버린답니다. 

@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class communityController {
 	
 	// 산책소식 홈
-	
+	@RequestMapping( "/home")
+	public String home(){
+		System.out.println("/home");
+		return "community/commHome";
+		}	
 	
 	// 우리동네 소통창구
 	@RequestMapping( "/list")
@@ -38,11 +42,6 @@ public class communityController {
 	public String read(){
 		System.out.println("/read");
 		return "community/commRead";
-	}
-	
-	
-	
-
-	
+	}	
 	
 }
