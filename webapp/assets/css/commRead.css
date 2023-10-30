@@ -1,7 +1,5 @@
 @charset "UTF-8";
-
-
-
+	
 	/* 왼쪽메뉴(aside) */
 	#aside {		
 		background-color: rgb(255, 255, 255);
@@ -22,10 +20,10 @@
 		line-height: 60px;
 		font-size: 20px;
 		font-weight: bold;		
-		color: black;		
+		color: black;	
 		list-style:none;	
 	}
-	
+		
 	.click-box {
 		border-left: 4px solid #FC5200;
 		box-sizing: border-box;
@@ -33,19 +31,18 @@
 	
 	/*----------------------------------------------------------------------------*/
 	/*리스트 박스*/
-	#contentList {	
+	#contentRead {	
 		height: 100vh;
 	    margin-left: 200px; /* 레이아웃에 따라 이 값을 조정하세요. */
+	    margin-right: 20px;
 	}    
 	
 	/*리스트의 한 박스*/
 	.content-info {
 		margin-bottom: 10px;
-	    padding: 20px; /* 사이드바와 내용을 구분하기 위한 간격 추가 */
+	    padding: 14px; /* 사이드바와 내용을 구분하기 위한 간격 추가 */
 		background-color: rgb(255, 255, 255);
 	    display: flex;
-		border-bottom: 2px solid rgb(221, 221, 221);
-	    
 	   /* flex-direction: column;
 	    justify-content: space-between;
 	    align-items: flex-start;*/
@@ -53,12 +50,6 @@
 	
 	.author-info {
 	    display: flex;		
-	}
-	
-	.textArea {
-		display: flex;
-		flex-direction: column;
- 		justify-content: space-between; /* 요소들 사이의 간격을 자동 조절 */
 	}
 			
 	/*유저 프로필 모양*/		
@@ -87,12 +78,17 @@
 	    margin-left: 10px; /* 추가 간격 설정 */
 	}
 	
+	.images {
+		float: right;
+	}
+	
+	.images a img {
+		max-width: 240px;
+	}	
+	
 	.title {
 	    font-size: 20px;
-		margin-top: 5px;
-	    display: flex;
-	    align-items: center;
-	    
+	    margin-top: 5px;
 	}
 	
 	.content-text {
@@ -102,15 +98,6 @@
 	}
 	
 	.like {
-	    bottom: 0;
+	    margin-top: 10px;
 	}
-	
-	.images {
-		float: right;
-	}
-	
-	.images a img {
-		max-width: 240px;
-	}	
-	
 	

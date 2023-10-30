@@ -51,8 +51,8 @@
 						<a class="drop-toggle d-inline-flex align-items-center fw-semibold" role="button" data-bs-toggle="dropdown" aria-expanded="false">산책소식</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="#">산책소식 홈</a></li>
-							<li><a class="dropdown-item" href="#">우리동네 소통창구</a></li>
-							<li><a class="dropdown-item" href="#">강아지 자랑하기</a></li>
+							<li><a class="dropdown-item" href="${pageContext.request.contextPath}/comm/list">우리동네 소통창구</a></li>
+							<li><a class="dropdown-item" href="${pageContext.request.contextPath}/comm/gallery">강아지 자랑하기</a></li>
 						</ul>
 					</div>
 				</li>

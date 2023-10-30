@@ -20,7 +20,6 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	
 	<!-- css -->
-	<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">	
 	<link href="${pageContext.request.contextPath}/assets/css/walkStart.css" rel="stylesheet" type="text/css">	
 	
 	<!-- 폰트어썸 -->

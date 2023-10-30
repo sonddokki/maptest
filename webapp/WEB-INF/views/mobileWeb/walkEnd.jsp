@@ -12,7 +12,6 @@
     <!-- js -->
 	<script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
 	<!-- css -->
-	<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">	
 	<link href="${pageContext.request.contextPath}/assets/css/walkEnd.css" rel="stylesheet" type="text/css">	
 	
 	<!-- 폰트어썸 -->
