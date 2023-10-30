@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
+	body {		
+		width: 100%;
+		height: 100%;
+	}
+
 	/* 표시되는 맵 */
 	#map {
-		width: 100%;
 		height: 100vh;
 		position: relative;
 	}
 	
+	.wComm {
+		
+	}
 
 	/*산책시작 버튼*/
 	button.button_1 {
@@ -86,7 +93,6 @@
 	
 	/*상단 박스*/
 	#headerBox {
-		width: 100%;
 		height: 60px;
 		display: flex;
 		align-items: center;

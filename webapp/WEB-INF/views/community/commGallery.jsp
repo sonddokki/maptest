@@ -5,8 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="${pageContext.request.contextPath}/assets/css/reset.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/index.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/guestbook.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/commGallery.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -29,9 +30,7 @@
 			
 		<div class="search">		
 			<div class="address">
-				<h2>서울특별시 </h2>
-				<h2>강동구</h2>		
-				<button class="addButton" type="text" click" value="">ⓥ</button>		
+				<span class="myColor">천호동</span> 강아지 자랑하기 <i class="fa-regular fa-square-caret-down"></i>
 			</div>			
 			
 			<div>
@@ -42,32 +41,12 @@
 			</div>								
 		</div>			
 		<div class="content">		
-			<div id="aside">
-				<ul>
-					<li><a href="">전체</a></li>
-					<li><a href="">소식</a></li>
-					<li><a href="">정보</a></li>
-					<li><a href="">질문</a></li>
-				</ul>
-			</div>
 			
-			<div id="contentList">
-				<table class="guestRead">
-						<tr>
-							<td>루비엄마</td>
-							<td>7시간 전</td>
-							<td>제목입니다</td>
-							<td>내용을 씁니다.</td>
-							<td colspan=4 class="text-left">강아지사진</td>
-							<li class="logo">
-								<a><img src="${pageContext.request.contextPath}/assets/images/123.jpg"></a>
-							</li>
-						</tr>
-				</table>
-			
-			</div>
-			
+				
 			
 		</div>
+				
+	</div>
+	
 </body>
 </html>
