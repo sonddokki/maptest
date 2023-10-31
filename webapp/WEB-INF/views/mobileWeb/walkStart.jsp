@@ -6,7 +6,7 @@
 <head>
 	<!-- 모바일용 웹페이지로 변환 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>내 위치 확인</title>
+    <title>산책하기</title>
     
     <!-- 네이버 지도 API 스크립트를 포함합니다. -->
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=b9b0wee2jf"></script>
@@ -69,10 +69,30 @@
 	    <!-- <li><a class="wComm" href="${pageContext.request.contextPath}/comm/list"> 산책소식 </a></li> -->
 	    
 	    <!-- 상단 우측부터는 모임일정 유무에 따른 아이콘 표시 (일단은 아이콘띄우고 나중에 if문처리) -->	
-	    <div class="clubsIcon">
-	   		<i id="drop-toggle" class="fa-solid fa-user-group" style="color: #e14e0e;"></i>
-	    </div>
-	    
+	    <div id="clubsIcon" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+	   		<i class="fa-solid fa-user-group" style="color: #e14e0e;"></i>
+	    </div>       
+		
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title fs-5" id="exampleModalLabel">오늘 내모임</h1>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		      	<!-- 모임일정 표시 -->
+		        ...
+		        
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">취소</button>
+		        <button type="button" class="btn btn-primary">일정선택</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	
 	</div>
 	
@@ -85,11 +105,24 @@
 	<div id="walkStart">
 		
 		<div class="walkBox">
-			<div class="distance"> <a> 32m </a> </div>
-			<div class="time"> <a> 0:21분 </a> </div>
+			<div class="distance">
+				<a id="wValue"> 32m </a>
+				<a id="wName"> 거리 </a>						
+			</div>
+			
+			<div class="lBox"> |</div>
+			
+			<div class="time">
+				<a id="wValue"> 0:21분 </a>
+				<a id="wName"> 시간 </a>
+			</div>
 		</div>
 		
-		<button class="button_1" id="stopButton">■</button>
+		<div class="bBox">
+			<button class="button_1" id="pauseButton"><i class="fa-solid fa-pause"></i></button>
+			<button class="button_1" id="stopButton"><i class="fa-solid fa-stop"></i></button>
+			<button class="button_1" id="cameraButton"><i class="fa-solid fa-camera"></i></button>
+		</div>		
 		
 	</div>
 	

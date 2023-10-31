@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>산책소식 글쓰기</title>
 <link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/commInsert.css" rel="stylesheet" type="text/css">
 <!-- summernote css-->

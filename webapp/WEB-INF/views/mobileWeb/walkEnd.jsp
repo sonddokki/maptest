@@ -6,7 +6,7 @@
 <head>
 	<!-- 모바일용 웹페이지로 변환 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>내 위치 확인</title>
+    <title>산책종료</title>
     <!-- 네이버 지도 API 스크립트를 포함합니다. -->
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=b9b0wee2jf"></script>
     <!-- js -->
@@ -101,10 +101,27 @@
 		<!-- 작성하기 버튼 -->
 		<div class="lastButton">
 			<!-- 작성 -->
-			<div class="write"> 기록하기 </div>
+			<div class="write" data-bs-toggle="modal" data-bs-target="#exampleModal"> 기록하기 </div>
 			<!-- 취소 -->
 			<div class="back"> 기록하지않기 </div>
+		</div>	
+		
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title fs-5" id="exampleModalLabel">기록되었습니다.</h1>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		     
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary">확인</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
+		
 		
 	</div>
 	

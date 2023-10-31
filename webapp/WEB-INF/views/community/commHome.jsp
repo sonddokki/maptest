@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>산책소식 홈</title>
 <link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
 <link href="${pageContext.request.contextPath}/assets/css/commHome.css" rel="stylesheet" type="text/css">
 </head>
@@ -47,9 +47,9 @@
 	      	<div class="likeBox">
 	      		<div id="lBox" class="likeBox-01">
 	      			<h3 id="h3"> 우리동네 인기강아지 </h3>
-	      			<img id="mainImg" src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 1">
+	      			<img id="mainImg" src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
 	      			<div id="subBox">
-	      				<img id="subImg" src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+	      				<img id="subImg" src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 1">
 	      				<img id="subImg" src="${pageContext.request.contextPath}/assets/images/123.jpg" alt="Profile Image 1">
 	      		
 	      			</div>
@@ -63,7 +63,7 @@
 			         	<div class="textArea">
 			            	<div class="author-info">
 				                <div class="profile-circle">
-				                    <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+				                    <img src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 1">
 				                </div>
 				                <div class="author-details">
 							        <div class="profile">루비엄마</div>
@@ -71,14 +71,14 @@
 							    </div>
 				            </div>
 			            
-				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;강아지 산책의 중요성! : 도그마루 유용한 정보</div>
 				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
 				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
-				            보통 강아지들의 산책시기는 접종이 끝난 ...</div>
-				            <div class="like"> <i class="fa-solid fa-heart"></i> 12&nbsp; 댓글 7&nbsp; 조회수 32  </div>
+				            보통 강아지들의 산책시기는 접종이 끝난 4개월이 적당하다고 하시는데요. 하지만 이시기에 산책을 하게 되면 사회성을 키우기...</div>
+				            <div class="like"> <i id="likeIcon" class="fa-solid fa-heart">&nbsp;12</i> &nbsp; 댓글 7&nbsp; 조회수 32  </div>
 			            </div>			            
 			            <div class="images">
-				            <a><img src="${pageContext.request.contextPath}/assets/images/234.jpg"></a>
+				            <a><img src="${pageContext.request.contextPath}/assets/images/345.jpg"></a>
 				        </div>					        
 			         </div>
 			         <!-- -------------------------------------------------------------- -->
@@ -86,7 +86,7 @@
 			         	<div class="textArea">
 			            	<div class="author-info">
 				                <div class="profile-circle">
-				                    <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+				                    <img src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 1">
 				                </div>
 				                <div class="author-details">
 							        <div class="profile">루비엄마</div>
@@ -94,14 +94,14 @@
 							    </div>
 				            </div>
 			            
-				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="title"><span class="badge text-bg-success"> 정보 </span>&nbsp;"자기가 원하는 대로만 가려고 해요"…올바른 강아지 산책법</div>
 				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
 				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
-				            보통 강아지들의 산책시기는 접종이 끝난 ...</div>
-				            <div class="like"> <i class="fa-solid fa-heart"></i> 12&nbsp; 댓글 7&nbsp; 조회수 32  </div>
+				            보통 강아지들의 산책시기는 접종이 끝난 4개월이 적당하다고 하시는데요. 하지만 이시기에 산책을 하게 되면 사회성을 키우기...</div>
+				            <div class="like"> <i id="likeIcon" class="fa-solid fa-heart">&nbsp;12</i> &nbsp; 댓글 7&nbsp; 조회수 32  </div>
 			            </div>			            
 			            <div class="images">
-				            <a><img src="${pageContext.request.contextPath}/assets/images/234.jpg"></a>
+				            <a><img src="${pageContext.request.contextPath}/assets/images/345.jpg"></a>
 				        </div>					        
 			         </div>
 			         <!-- -------------------------------------------------------------- -->
@@ -109,7 +109,7 @@
 			         	<div class="textArea">
 			            	<div class="author-info">
 				                <div class="profile-circle">
-				                    <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+				                    <img src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 1">
 				                </div>
 				                <div class="author-details">
 							        <div class="profile">루비엄마</div>
@@ -117,14 +117,14 @@
 							    </div>
 				            </div>
 			            
-				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="title"><span class="badge text-bg-success"> 질문 </span>&nbsp;강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</div>
 				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
 				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
-				            보통 강아지들의 산책시기는 접종이 끝난 ...</div>
-				            <div class="like"> <i class="fa-solid fa-heart"></i> 12&nbsp; 댓글 7&nbsp; 조회수 32  </div>
+				            보통 강아지들의 산책시기는 접종이 끝난 4개월이 적당하다고 하시는데요. 하지만 이시기에 산책을 하게 되면 사회성을 키우기...</div>
+				            <div class="like"> <i id="likeIcon" class="fa-solid fa-heart">&nbsp;12</i> &nbsp; 댓글 7&nbsp; 조회수 32  </div>
 			            </div>			            
 			            <div class="images">
-				            <a><img src="${pageContext.request.contextPath}/assets/images/234.jpg"></a>
+				            <a><img src="${pageContext.request.contextPath}/assets/images/345.jpg"></a>
 				        </div>					        
 			         </div>
 	      		</div>

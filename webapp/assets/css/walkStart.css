@@ -57,38 +57,57 @@
 	
 	.walkBox {		
 		display: flex;
-		justify-content: space-between; /* 요소들 사이의 간격을 고르게 분배 */
-		margin: 0px,20px,0px,20px;
+		justify-content: space-around; /* 요소들 사이의 간격을 고르게 분배 */
+		margin-top: 10px;
+		padding-right: 40px;
+		padding-left: 40px;		
 	}
 	
 	.walkBox div {
-		width: 50%;  /* 가로 크기 조정 */
+		width: 40%;  /* 가로 크기 조정 */
 		height: 80px;  /* 세로 크기 조정 */
     	display: flex; /* div를 flex 컨테이너로 설정 */
-	    font-size: 44px;
+	    font-size: 32px;
 		justify-content: center;  /*수평 가운데 정렬 */
 	    align-items: center;  /*수직 가운데 정렬 */
+		flex-direction: column; /* 요소들을 수직 방향으로 배치 */
+		font-weight: bold;
 	}
 	
 	#walkStart div a {
 	    text-decoration: none; /* 링크 텍스트 밑줄 제거 */		
 	}
 	
+	.lBox{
+		font-weight: lighter;
+	}
+	
+	#wName {
+		font-size: 16px;
+	}
+	
+	.bBox {
+		margin-top: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around; /*  */
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	
 	/*진행중 버튼*/
-	#stopButton {
-		position: absolute;
+	#pauseButton,#cameraButton,#stopButton {
 		width: 80px;  /* 가로 크기 조정 */
 		height: 80px;  /* 세로 크기 조정 */
 		border-radius: 50px; /* 가로 반지름과 세로 반지름 설정 */
-		bottom: 15px;
-		left: 50%;
-		transform:
-		translateX(-50%);
 		color: orange; /* 글씨 색상을 하얀색으로 설정 */		
 		background-color: white;
 		border:5px solid orange;
-		font-size: 40px;
+		font-size: 36px;		
 	}
+	
+	/*진행중 버튼*/
+	
 	
 	
 	
@@ -146,10 +165,12 @@
 	    vertical-align: middle; /* 수직 가운데 정렬 */
 	}
 	
-	.clubsIcon {
+	#clubsIcon {
         position: relative;
         font-size: 34px;
-        cursor: pointer;	
+        cursor: pointer;
+        background-color:transparent;
+        border: transparent;
     }
 
     #drop-toggle {
