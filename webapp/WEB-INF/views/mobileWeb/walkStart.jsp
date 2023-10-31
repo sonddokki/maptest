@@ -7,23 +7,30 @@
 	<!-- 모바일용 웹페이지로 변환 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>내 위치 확인</title>
+    
     <!-- 네이버 지도 API 스크립트를 포함합니다. -->
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=b9b0wee2jf"></script>
+    
     <!-- js -->
 	<script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
-	
+			
+	<!-- 부트스트랩 cdn , 폰트어썸 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/109d7bd609.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+		
+	<!-- css -->
+	<link href="${pageContext.request.contextPath}/assets/css/walkStart.css" rel="stylesheet" type="text/css">		
+				
 	<!-- Slick 슬라이더 스타일 시트 추가 -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-	
+		
 	<!-- Slick 슬라이더 스크립트 추가 -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>	
 	
-	<!-- css -->
-	<link href="${pageContext.request.contextPath}/assets/css/walkStart.css" rel="stylesheet" type="text/css">	
+		
 	
-	<!-- 폰트어썸 -->
-	<script src="https://kit.fontawesome.com/109d7bd609.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	
@@ -33,11 +40,11 @@
 	
 		<!-- 상단 좌측부터는 반복문으로 강아지프로필 이미지 띄우는곳 (5개 이상이면 슬릿) -->
 		<div class="profile-container">
-			<div class="profile-circles" data-slick='{"slidesToShow": 5, "slidesToScroll": 5}'>
-		        <div class="profile-circle">
+			<div class="profile-circles" >
+		        <div id="pSelect" class="profile-circle">
 		            <img src="${pageContext.request.contextPath}/assets/images/123.jpg" alt="Profile Image 1">
 		        </div>
-		        <div class="profile-circle">
+		        <div id="pSelect" class="profile-circle">
 		            <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 2">
 		        </div>
 		        <div class="profile-circle">
@@ -49,7 +56,12 @@
 		        <div class="profile-circle">
 		            <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 2">
 		        </div>    
-		                    
+		        <div class="profile-circle">
+		            <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 2">
+		        </div>   
+		        <div class="profile-circle">
+		            <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 2">
+		        </div>             
 		    </div>
 		</div>
 		
@@ -58,35 +70,27 @@
 	    
 	    <!-- 상단 우측부터는 모임일정 유무에 따른 아이콘 표시 (일단은 아이콘띄우고 나중에 if문처리) -->	
 	    <div class="clubsIcon">
-	   		<!-- <i id="icon" class="fa-solid fa-dog fa-2x"></i> -->
-	   		<a class="drop-toggle d-inline-flex align-items-center fw-semibold" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-	   			<id="icon" class="fa-regular fa-calendar-days fa-2xl">
-	   		</a>	
-	   		   		
-	   		<ul class="dropdown-menu">
-				<li><a class="dropdown-item" href="#">동아리모임</a></li>
-				<li><a class="dropdown-item" href="#">동아리모임</a></li>
-				<li><a class="dropdown-item" href="#">동아리모임</a></li>
-			</ul>
+	   		<i id="drop-toggle" class="fa-solid fa-user-group" style="color: #e14e0e;"></i>
 	    </div>
 	    
 	
 	</div>
-
-	<div id="map"></div>
+	
+	<div id="map"></div>	
 	
 	<!-- 이 버튼을 지도 아래 중앙에 배치합니다. -->
 	<button class="button_1" id="startButton"> 산책시작 ▶</button>
 	
 	<!-- 버튼 눌렀을때 스타일 변화 -->
 	<div id="walkStart">
-	
-		<div class="distance"> <a> 32m </a> </div>
-		<div class="time"> <a> 0:21분 </a> </div>
 		
-		
+		<div class="walkBox">
+			<div class="distance"> <a> 32m </a> </div>
+			<div class="time"> <a> 0:21분 </a> </div>
+		</div>
 		
 		<button class="button_1" id="stopButton">■</button>
+		
 	</div>
 	
 	
@@ -130,7 +134,10 @@
           
           map = new naver.maps.Map("map", {
             center: myLocation,
-            zoom: 19
+            zoom: 19,
+			mapDataControl : false,
+			caleControl: false,
+	        logoControl: false
           });  
           
           mapRadius = new naver.maps.Circle({
@@ -323,7 +330,8 @@
         
        $('.profile-circles').slick({
            slidesToShow: 6, // 화면에 보여질 슬라이드 수
-           slidesToScroll: 6 // 스크롤할 슬라이드 수
+           slidesToScroll: 6, // 스크롤할 슬라이드 수
+           infinite: false
        });
         
         $(document).ready(function() {

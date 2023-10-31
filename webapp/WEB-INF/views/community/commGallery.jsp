@@ -267,22 +267,39 @@
 		
 		<div id="list">
 			<div id="paging">
-				<ul>
-					<li href="">◀</li>
-					<li href="" class="active">1</li>					
-					<li href="">2</li>					
-					<li href="">3</li>					
-					<li href="">4</li>
-					<li href="">5</li>
-					<li href="">6</li>
-					<li href="">7</li>
-					<li href="">8</li>
-					<li href="">9</li>
-					<li href="">10</li>
-					<li href="">▶</li>
-				</ul>
-				
-				<div class="clear"></div>
+				<nav aria-label="...">
+				  <ul class="pagination">
+				    <li class="page-item disabled">
+				      <a class="page-link">Previous</a>
+				    </li>
+				    <li class="page-item"><a class="page-link" href="#">1</a></li>
+				    
+				    <li class="page-item active" aria-current="page">
+				      <a class="page-link" href="#">2</a>
+				    </li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">4</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">5</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">6</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">7</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">8</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">9</a></li>
+				    
+				    <li class="page-item"><a class="page-link" href="#">10</a></li>
+				    
+				    <li class="page-item">
+				      <a class="page-link" href="#">Next</a>
+				    </li>
+				    
+				  </ul>
+				</nav>
 			</div>
 		</div>	
 			

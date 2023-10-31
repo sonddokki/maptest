@@ -29,20 +29,14 @@
 	
 	/* 게시판 페이징 */
 	#list {	
-		width: 400px;
-		height: 70px;			
- 		margin: 0 auto;
+		margin-top: 30px;
+		width: 100%;
+		height: 70px;	
  		padding: 10px;
 	}
 	
-	#paging ul {margin: 10px 5px 10px 5px;}
-	#paging ul>li{
-		float: left;
-		margin: 0px 8px 0px 8px;
-		cursor:pointer;
-	}
-	
-	#paging ul>li.active{
-		font-size: 14px;
-		font-weight: bold;
+	#paging {
+		display: flex;
+		justify-content: center; /* 수평 가운데 정렬 */
+		align-items: center; /* 수직 가운데 정렬 */
 	}

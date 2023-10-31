@@ -53,8 +53,7 @@
 			</div>			
 			
 			<div id="contentRead">
-							
-			    			        
+				
 		      	
 			</div>				
 			

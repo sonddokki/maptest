@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
-	body {		
-		width: 100%;
-		height: 100%;
+	html,body {		
+		margin: 0;
+		padding: 0;
 	}
-
+	
+	
+		
+	
 	/* 표시되는 맵 */
-	#map {
-		height: 100vh;
+	#map {	
+		height: 820px;
 		position: relative;
 	}
 	
@@ -52,19 +55,23 @@
 		background-color: rgb(255, 255, 255);
 	}
 	
-	#walkStart div {
-		background-color: rgb(206, 231, 255);
-		width: 30%;  /* 가로 크기 조정 */
+	.walkBox {		
+		display: flex;
+		justify-content: space-between; /* 요소들 사이의 간격을 고르게 분배 */
+		margin: 0px,20px,0px,20px;
+	}
+	
+	.walkBox div {
+		width: 50%;  /* 가로 크기 조정 */
 		height: 80px;  /* 세로 크기 조정 */
     	display: flex; /* div를 flex 컨테이너로 설정 */
-	    font-size: 30px;
-		justify-content: flex-start;  /*수평 가운데 정렬 */
+	    font-size: 44px;
+		justify-content: center;  /*수평 가운데 정렬 */
 	    align-items: center;  /*수직 가운데 정렬 */
 	}
 	
 	#walkStart div a {
-	    text-decoration: none; /* 링크 텍스트 밑줄 제거 */
-		
+	    text-decoration: none; /* 링크 텍스트 밑줄 제거 */		
 	}
 	
 	/*진행중 버튼*/
@@ -96,7 +103,7 @@
 		height: 60px;
 		display: flex;
 		align-items: center;
-		justify-content: space-between; /*  */
+		justify-content: space-around; /*  */
 	}	
 	
 	/* 프로필 컨테이너 스타일링 */
@@ -108,27 +115,13 @@
 	
 	/* 프로필 이미지 스타일링 */
 	.profile-circles {
-	    /*display: flex;
-	    transition: transform 0.5s ease;
-	    /* 다른 스타일링 */
-	    width: 280px;  /*원하는 너비로 설정 */
-	    
+	    width: 330px;  /*원하는 너비로 설정 */
 	    overflow: hidden;
 	    position: relative;
 	    display: flex;
 	    transition: transform 0.5s ease;
 	    align-items: center;
 	}
-	
-	/*프로필 묶음
-	.profile-circles {
-		overflow: hidden;
-	    width: 300px; /* 필요에 따라 가로 크기 조정
-	    position: relative;
-	    display: flex;
-	    transition: transform 0.5s ease;
-	    align-items: center; /* 수직 가운데 정렬
-	}*/
 	
 	.profile-circle {
 	    width: 44px; /* 프로필 동그라미의 너비 설정 */
@@ -138,7 +131,11 @@
 	    margin: 5px,5px; /* 동그라미 상하 간격 설정 */
 	    overflow: hidden; /* 이미지를 동그라미 안에 잘라내기 */
 	    display: inline-block; /* 가로로 정렬하기 */
-	    border:3px solid rgb(222, 33, 37);
+	    border:3px solid rgb(79, 79, 79);
+	}
+	
+	#pSelect {
+	    border:3px solid rgb(230, 81, 85);
 	}
 	
 	/*강아지프로필*/
@@ -151,9 +148,11 @@
 	
 	.clubsIcon {
         position: relative;
+        font-size: 34px;
+        cursor: pointer;	
     }
 
-    .drop-toggle {
+    #drop-toggle {
         display: flex;
         align-items: center;
         cursor: pointer;	

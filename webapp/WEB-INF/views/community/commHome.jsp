@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/commGallery.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/commHome.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -43,12 +43,148 @@
 		<!-- -------------------------------------------------------------- -->	
 				
 		<div class="content">
-		
+						    			        
+	      	<div class="likeBox">
+	      		<div id="lBox" class="likeBox-01">
+	      			<h3 id="h3"> 우리동네 인기강아지 </h3>
+	      			<img id="mainImg" src="${pageContext.request.contextPath}/assets/images/345.jpg" alt="Profile Image 1">
+	      			<div id="subBox">
+	      				<img id="subImg" src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+	      				<img id="subImg" src="${pageContext.request.contextPath}/assets/images/123.jpg" alt="Profile Image 1">
+	      		
+	      			</div>
+	      		</div>
+	      			
+	      		<div id="lBox" class="likeBox-02">
+	      		
+	      			<h3 id="h3"> 우리동네 인기소식 </h3>
+	      			<!-- -------------------------------style="font-size: 24px;"------------------------------- -->
+	      			<div class="content-info">
+			         	<div class="textArea">
+			            	<div class="author-info">
+				                <div class="profile-circle">
+				                    <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+				                </div>
+				                <div class="author-details">
+							        <div class="profile">루비엄마</div>
+							        <div class="time">7분전</div>
+							    </div>
+				            </div>
+			            
+				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
+				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
+				            보통 강아지들의 산책시기는 접종이 끝난 ...</div>
+				            <div class="like"> <i class="fa-solid fa-heart"></i> 12&nbsp; 댓글 7&nbsp; 조회수 32  </div>
+			            </div>			            
+			            <div class="images">
+				            <a><img src="${pageContext.request.contextPath}/assets/images/234.jpg"></a>
+				        </div>					        
+			         </div>
+			         <!-- -------------------------------------------------------------- -->
+			         <div class="content-info">
+			         	<div class="textArea">
+			            	<div class="author-info">
+				                <div class="profile-circle">
+				                    <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+				                </div>
+				                <div class="author-details">
+							        <div class="profile">루비엄마</div>
+							        <div class="time">7분전</div>
+							    </div>
+				            </div>
+			            
+				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
+				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
+				            보통 강아지들의 산책시기는 접종이 끝난 ...</div>
+				            <div class="like"> <i class="fa-solid fa-heart"></i> 12&nbsp; 댓글 7&nbsp; 조회수 32  </div>
+			            </div>			            
+			            <div class="images">
+				            <a><img src="${pageContext.request.contextPath}/assets/images/234.jpg"></a>
+				        </div>					        
+			         </div>
+			         <!-- -------------------------------------------------------------- -->
+			         <div class="content-info">
+			         	<div class="textArea">
+			            	<div class="author-info">
+				                <div class="profile-circle">
+				                    <img src="${pageContext.request.contextPath}/assets/images/234.jpg" alt="Profile Image 1">
+				                </div>
+				                <div class="author-details">
+							        <div class="profile">루비엄마</div>
+							        <div class="time">7분전</div>
+							    </div>
+				            </div>
+			            
+				            <div class="title"><span class="badge text-bg-success"> 소식 </span>&nbsp;제목입니다</div>
+				            <div class="content-text">여러분들은 강아지 산책의 중요성에 대해서 알고 계신가요? 더운 여름이 지나가고, 
+				            산책을 하기 좋은 따뜻한 날이 오면서 반려견과 함께 바깥을 나가는 일은 정말 즐거운 일이랍니다. 
+				            보통 강아지들의 산책시기는 접종이 끝난 ...</div>
+				            <div class="like"> <i class="fa-solid fa-heart"></i> 12&nbsp; 댓글 7&nbsp; 조회수 32  </div>
+			            </div>			            
+			            <div class="images">
+				            <a><img src="${pageContext.request.contextPath}/assets/images/234.jpg"></a>
+				        </div>					        
+			         </div>
+	      		</div>
+	      		
+	      	</div>
+	      	
+	      	<div class="rankingBox">
+	      		<div id="rBox" class="rankingBox-01">
+	      			<h3 id="h3"> 우리동네 핫한소식 </h3>
+	      			<div class="ranking">
+	      				<li id="rNum">1.<a id="tNum"> 안녕하세요. 강아지가 참 이쁘죠</a></li>
+	      				<li id="rNum">2.<a id="tNum"> 강아지 산책 강아지 산책의 중요성! : 도그마루...</a></li>
+	      				<li id="rNum">3.<a id="tNum"> [칼럼] (8) 초보 견주가 알아야할 강아지 산책 ...</a></li>
+	      				<li id="rNum">4.<a id="tNum"> 필수 강아지 산책 용품 | 이것만은 꼭 챙겨요!</a></li>
+	      				<li id="rNum">5.<a id="tNum"> 강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</a></li>
+	      				<li id="rNum">6.<a id="tNum"> 반려견 산책과 죄책감…"매일 못하면 학대일...</a></li>
+	      				<li id="rNum">7.<a id="tNum"> 강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</a></li>
+	      				<li id="rNum">8.<a id="tNum"> 강형욱이 산책하는 법 | Trail Dog [그 남자의...</a></li>
+	      				<li id="rNum">9.<a id="tNum"> 강아지 산책, 주말에만 시켜줘도 괜찮을까요?</a></li>
+	      				<li id="rNum">10.<a id="tNum"> 매번 똑같은 산책로가 지겹다면? '서울 산책...</a></li>	      			
+	      			</div>
+	      		</div>
+	      		
+	      		<div id="rBox" class="rankingBox-02">
+	      			<h3 id="h3"> 우리동네 핫한소식 </h3>
+	      			<div class="ranking">
+	      				<li id="rNum">1.<a id="tNum"> 안녕하세요. 강아지가 참 이쁘죠</a></li>
+	      				<li id="rNum">2.<a id="tNum"> 강아지 산책 강아지 산책의 중요성! : 도그마루...</a></li>
+	      				<li id="rNum">3.<a id="tNum"> [칼럼] (8) 초보 견주가 알아야할 강아지 산책 ...</a></li>
+	      				<li id="rNum">4.<a id="tNum"> 필수 강아지 산책 용품 | 이것만은 꼭 챙겨요!</a></li>
+	      				<li id="rNum">5.<a id="tNum"> 강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</a></li>
+	      				<li id="rNum">6.<a id="tNum"> 반려견 산책과 죄책감…"매일 못하면 학대일...</a></li>
+	      				<li id="rNum">7.<a id="tNum"> 강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</a></li>
+	      				<li id="rNum">8.<a id="tNum"> 강형욱이 산책하는 법 | Trail Dog [그 남자의...</a></li>
+	      				<li id="rNum">9.<a id="tNum"> 강아지 산책, 주말에만 시켜줘도 괜찮을까요?</a></li>
+	      				<li id="rNum">10.<a id="tNum"> 매번 똑같은 산책로가 지겹다면? '서울 산책...</a></li>		      			
+	      			</div>
+	      		</div>
+	      		
+	      		<div id="rBox" class="rankingBox-03">
+	      			<h3 id="h3"> 우리동네 핫한소식 </h3>
+	      			<div class="ranking">
+	      				<li id="rNum">1.<a id="tNum"> 안녕하세요. 강아지가 참 이쁘죠</a></li>
+	      				<li id="rNum">2.<a id="tNum"> 강아지 산책 강아지 산책의 중요성! : 도그마루...</a></li>
+	      				<li id="rNum">3.<a id="tNum"> [칼럼] (8) 초보 견주가 알아야할 강아지 산책 ...</a></li>
+	      				<li id="rNum">4.<a id="tNum"> 필수 강아지 산책 용품 | 이것만은 꼭 챙겨요!</a></li>
+	      				<li id="rNum">5.<a id="tNum"> 강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</a></li>
+	      				<li id="rNum">6.<a id="tNum"> 반려견 산책과 죄책감…"매일 못하면 학대일...</a></li>
+	      				<li id="rNum">7.<a id="tNum"> 강아지 산책, 왜 주인을 항상 앞서서 가는걸까?</a></li>
+	      				<li id="rNum">8.<a id="tNum"> 강형욱이 산책하는 법 | Trail Dog [그 남자의...</a></li>
+	      				<li id="rNum">9.<a id="tNum"> 강아지 산책, 주말에만 시켜줘도 괜찮을까요?</a></li>
+	      				<li id="rNum">10.<a id="tNum"> 매번 똑같은 산책로가 지겹다면? '서울 산책...</a></li>	      			
+	      			</div>
+	      		</div>
+	      	</div>
 			
 		</div>
 		
 				
-		<!-- -------------------------------------------------------------- -->
+		
 		
 		
 			

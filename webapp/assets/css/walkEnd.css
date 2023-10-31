@@ -5,10 +5,19 @@
 		width:100%;
 	}*/
 	
+	html,body {		
+		margin: 0;
+		padding: 0;
+	}
+	
 	/*상단박스 글자 색상*/
-	#text01 {
+	#text01,#text02 {
 		color: white;
 		font-family: NotoSansKR;
+	}
+	
+	#text02 {
+		font-size: 20px;
 	}
 	
 	.headerBox, .end, .recordBox {
@@ -244,7 +253,7 @@
 		width: 50%;
 	    height: 100%;
 	    color: white;
-	    font-size: 30px;
+	    font-size: 24px;
 	    text-align: center;		    
 	    border-radius: 5px;	
 	    display: flex;

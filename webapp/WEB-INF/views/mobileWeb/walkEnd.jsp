@@ -14,8 +14,10 @@
 	<!-- css -->
 	<link href="${pageContext.request.contextPath}/assets/css/walkEnd.css" rel="stylesheet" type="text/css">	
 	
-	<!-- 폰트어썸 -->
+	<!-- 부트스트랩 cdn , 폰트어썸 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/109d7bd609.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -27,8 +29,8 @@
 			<div class="end" id="text01">산책종료</div>
 			
 			<div class="recordBox">
-				<div class="date" id="text01">2023년 10월 25일(화)</div>
-				<div class="record" id="text01"> 거리:34m  시간:0:45</div>
+				<div class="date" id="text02">2023년 10월 25일(화)</div>
+				<div class="record" id="text02"> 거리:34m  시간:0:45</div>
 			</div>		
 			
 		</div>
