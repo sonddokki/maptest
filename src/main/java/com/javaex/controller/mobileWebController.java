@@ -27,8 +27,8 @@ public class mobileWebController {
 	// 로그인폼
 	@RequestMapping( "/loginForm")
 	public String loginForm(){
-		System.out.println("/loginForm");
-		return "mobileWeb/login";
+		System.out.println("/login");
+		return "mobileWeb/loginForm";
 	}
 	
 	// 로그인실행

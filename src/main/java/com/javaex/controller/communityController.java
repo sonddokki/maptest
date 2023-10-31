@@ -44,4 +44,12 @@ public class communityController {
 		return "community/commRead";
 	}	
 	
+	// 내 게시글 관리
+	@RequestMapping( "/admin")
+	public String admin(){
+		System.out.println("/admin");
+		return "community/commAdmin";
+	}	
+	
+	
 }

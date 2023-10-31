@@ -5,19 +5,12 @@
 		padding: 0;
 	}
 	
-	
-		
-	
 	/* 표시되는 맵 */
 	#map {	
 		height: 820px;
 		position: relative;
-	}
+	}	
 	
-	.wComm {
-		
-	}
-
 	/*산책시작 버튼*/
 	button.button_1 {
 		border: 0;

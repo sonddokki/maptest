@@ -104,6 +104,7 @@
 		width:31%;
 		height: 150px;
 	    align-items: center; /* 수직 가운데 정렬 */
+		position: relative;	
 	    /*background-color: rgb(255, 255, 255);*/
 	    /*border: 1px solid red;*/
 		/*position: relative;
@@ -120,11 +121,19 @@
 		margin-bottom: 4px;
 		box-sizing: border-box; /* 기본 값, 테두리 두께를 크기에 미포함 */
 		width:100%;
-		aspect-ratio: 1/1;		
+		aspect-ratio: 1/1;	
+	}
+	
+	#likeIcon {
+		color: rgb(255, 85, 85);
+		font-size: 20px;
+		position: absolute;
+		right: 7px;
+		top: 85px;
 	}
 	
 	#mapImageClick {
-		border: 7px solid rgb(255, 79, 79);
+		border: 5px solid rgb(255, 79, 79);
 		box-sizing: border-box;
 	}	
 	

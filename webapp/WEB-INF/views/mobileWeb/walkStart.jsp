@@ -99,7 +99,7 @@
 	<div id="map"></div>	
 	
 	<!-- 이 버튼을 지도 아래 중앙에 배치합니다. -->
-	<button class="button_1" id="startButton"> 산책시작 ▶</button>
+	<button class="button_1" id="startButton"> 산책시작 <i class="fa-solid fa-play"></i></button>
 	
 	<!-- 버튼 눌렀을때 스타일 변화 -->
 	<div id="walkStart">

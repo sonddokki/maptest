@@ -21,7 +21,7 @@
 				<button class="badge text-bg-primary">  
 					<a class="aTag" href="${pageContext.request.contextPath}/comm/insert" >글쓰기</a>
 				</button>&nbsp;
-				<a class="aTags" href=""> 내 소식 </a>&nbsp;
+				<a class="aTags" href="${pageContext.request.contextPath}/comm/admin"> 내 소식 </a>&nbsp;
 				<a class="aTags" href=""> 내 게시글 </a>&nbsp;
 				<a class="aTags" href=""> 내 댓글 </a>
 			</ul>

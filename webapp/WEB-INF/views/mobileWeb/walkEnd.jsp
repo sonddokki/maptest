@@ -49,15 +49,18 @@
 		        </div>				
 				<div class="mapImageContainer" >
 					<div class="mapImageBox">
-						<img class="mapImage" src="${pageContext.request.contextPath}/assets/images/map1.jpg">
+						<img class="mapImage" src="${pageContext.request.contextPath}/assets/images/map1.jpg"></img>
+						<i id="likeIcon" class="fa-solid fa-heart"></i>
 						<div class="mapName"> 산책로 이름 </div>
 			        </div>
 			        <div class="mapImageBox">
 						<img class="mapImage" src="${pageContext.request.contextPath}/assets/images/map1.jpg">
+						<i id="likeIcon" class="fa-regular fa-heart"></i>
 						<div class="mapName"> 산책로 이름 </div>
 			        </div>
 			        <div class="mapImageBox">
 						<img id="mapImageClick" class="mapImage" src="${pageContext.request.contextPath}/assets/images/map1.jpg">
+						<i id="likeIcon" class="fa-solid fa-heart"></i>
 						<div class="mapName"> 산책로 이름 </div>
 			        </div>
 				</div>				
