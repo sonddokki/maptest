@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>산책소식 홈</title>
-<link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/commHome.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/myAddress.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/commHome.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 

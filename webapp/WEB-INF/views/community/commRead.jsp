@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>산책소식상세</title>
 <link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/commRead.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/commRead.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>

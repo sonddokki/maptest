@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>산책소식 글쓰기</title>
-<link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/commInsert.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/myAddress.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/commInsert.css" rel="stylesheet" type="text/css">
 <!-- summernote css-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
   integrity="sha256-7ZWbZUAi97rkirk4DcEp4GWDPkWpRMcNaEyXGsNXjLg=" crossorigin="anonymous">  

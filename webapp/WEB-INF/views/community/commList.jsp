@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>우리동네 소통창구</title>
-<link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/commList.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/myAddress.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/commList.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 

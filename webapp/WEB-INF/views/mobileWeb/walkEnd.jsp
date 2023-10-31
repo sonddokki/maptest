@@ -12,7 +12,7 @@
     <!-- js -->
 	<script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
 	<!-- css -->
-	<link href="${pageContext.request.contextPath}/assets/css/walkEnd.css" rel="stylesheet" type="text/css">	
+	<link href="${pageContext.request.contextPath}/assets/css/mobileWeb/walkEnd.css" rel="stylesheet" type="text/css">	
 	
 	<!-- 부트스트랩 cdn , 폰트어썸 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">

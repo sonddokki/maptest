@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>강아지 자랑하기</title>
-<link href="${pageContext.request.contextPath}/assets/css/myAddress.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/assets/css/commGallery.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/myAddress.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/community/commGallery.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
